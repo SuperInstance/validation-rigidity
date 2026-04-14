@@ -35,6 +35,6 @@ fn main() {
         }
         let percent_rigid = (rigid_count as f64) / 1000.0;
         let percent_cohesive = (cohesive_count as f64) / 1000.0;
-        println!({} {} {} {}, k, percent_rigid, percent_cohesive, (rigid_count as f64) / (cohesive_count as f64 + 1.0));
+        println!("{} {} {} {}", k, percent_rigid, percent_cohesive, (rigid_count as f64) / (cohesive_count as f64 + 1.0));
     }
 }
