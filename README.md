@@ -1,0 +1,2 @@
+# Rigidity Cohesion Experiment
+The goal of this experiment is to investigate the convergence between constraint theory and JC1's DCS Laws. The experiment generates random geometric graphs with N=1024 agents and checks for Laman rigidity and cohesion. The results are printed in a table with k, percent_rigid, percent_cohesive, and message_load_estimate. We expect a phase transition at k=12 (99%+ rigid/cohesive, below k=12 near 0%).
